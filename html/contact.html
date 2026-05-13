@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - GreenTech Solutions</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="logo-container">
+        <img src="../images/logo1.png" alt="GreenTech Solutions logo" class="logo">
+        <h1>GreenTech Solutions</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="page-title">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you. Reach out for partnerships, support, or questions.</p>
+    </section>
+
+    <!-- CONTACT INFO TABLE -->
+    <section class="contact-info">
+        <h3>Company Contact Information</h3>
+
+        <table>
+            <tr>
+                <th>Department</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+
+            <tr>
+                <td>Support</td>
+                <td>support@greentech.com</td>
+                <td>(575) 123-4567</td>
+            </tr>
+
+            <tr>
+                <td>Sales</td>
+                <td>sales@greentech.com</td>
+                <td>(575) 987-6543</td>
+            </tr>
+
+            <tr>
+                <td>General</td>
+                <td>info@greentech.com</td>
+                <td>(575) 000-1111</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="contact-form-section">
+
+        <h3>Send Us a Message</h3>
+
+        <form id="contactForm" onsubmit="return validateForm()">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+</main>
+
+<script src="../javascript/script.js"></script>
+
+</body>
+</html>

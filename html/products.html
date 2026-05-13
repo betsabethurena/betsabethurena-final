@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - GreenTech Solutions</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+
+    <div class="logo-container">
+        <img src="../images/logo1.png" alt="GreenTech Solutions logo" class="logo">
+        <h1>GreenTech Solutions</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="blog.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="page-title">
+        <h2>Our Products & Services</h2>
+        <p>Explore eco-friendly technology designed for a sustainable future.</p>
+    </section>
+
+    <!-- FILTER DROPDOWN -->
+    <section class="filter-section">
+        <label for="categoryFilter">Filter by category:</label>
+
+        <select id="categoryFilter" onchange="filterProducts()">
+            <option value="all">All</option>
+            <option value="recycling">Smart Recycling</option>
+            <option value="carbon">Carbon Tracking</option>
+            <option value="energy">Energy Efficiency</option>
+        </select>
+    </section>
+
+    <!-- PRODUCTS GRID -->
+    <section class="products-grid">
+
+        <div class="product-card recycling">
+            <img src="../images/recycling.jpg" alt="Smart recycling system">
+            <h3>Smart Recycling System</h3>
+            <p>Automated waste sorting to improve recycling efficiency.</p>
+        </div>
+
+        <div class="product-card carbon">
+            <img src="../images/carbon.jpg" alt="Carbon tracking dashboard">
+            <h3>Carbon Tracker</h3>
+            <p>Monitor and reduce your company’s carbon footprint.</p>
+        </div>
+
+        <div class="product-card energy">
+            <img src="../images/energy.jpg" alt="Energy efficient devices">
+            <h3>Energy Saver Devices</h3>
+            <p>Smart systems that reduce energy consumption automatically.</p>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="../javascript/script.js"></script>
+
+</body>
+</html>
