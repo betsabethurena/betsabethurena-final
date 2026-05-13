@@ -25,7 +25,7 @@ To run this project on your local machine:
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5 (semantic structure)
 - CSS3 (styling and responsive design)
